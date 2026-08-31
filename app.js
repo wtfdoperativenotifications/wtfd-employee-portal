@@ -33,6 +33,7 @@ const links = [
   {title:"ImageTrend",description:"ePCR and EMS reporting",category:"Systems",url:"https://washingtontownship.imagetrendelite.com/Elite/Organizationwashingtontownship/?logout=1",icon:"flame",primary:true},
   {title:"SharePoint",description:"Department SharePoint site",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/sites/fire",icon:"share",primary:true},
   {title:"Vector Training",description:"Vector / TargetSolutions",category:"Systems",url:"https://app.targetsolutions.com/auth/index.cfm?action=login.showlogin&customerid=37255&customerpath=washingtontwpoh",icon:"graduation",primary:true},
+  {title:"FlowMSP",description:"Preplans and response information",category:"Systems",url:"https://app.flowmsp.com",icon:"cloud",primary:true},
 
   {title:"Time Adjustment",description:"Submit a time adjustment",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSeiEExxWT88-EGZL6zvqp1z72a5sswMqvVydu997n24ps-M0A/viewform",icon:"clock"},
   {title:"Employee Info Update",description:"Update employee information",category:"Employee Services",url:"https://arcg.is/1viuH03",icon:"id"},
@@ -40,7 +41,7 @@ const links = [
   {title:"Award Nominations",description:"Submit an award nomination",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSe403NA8g2yRjIY8jaZ0QlJUOS58rVhvABPSDxxf6Ix-pGesw/viewform",icon:"trophy"},
 
   {title:"Training / Tuition Reimbursement",description:"Training and tuition form",category:"Training & Operations",url:"https://washingtontwpohio.sharepoint.com/sites/Fire/Fire%20Forms/Forms/AllItems.aspx?id=%2Fsites%2FFire%2FFire%20Forms%2FTRAINING%20REQUEST%2DTUITION%20REIMBURSEMENT%2Epdf&parent=%2Fsites%2FFire%2FFire%20Forms",icon:"book"},
-  {title:"FlowMSP",description:"Preplans and response information",category:"Training & Operations",url:"https://app.flowmsp.com",icon:"cloud"},
+  {title:"EMS Training Survey",description:"EMS training survey",category:"Training & Operations",url:"https://docs.google.com/forms/d/1iizuNiHleeAWpN3cwUvKJJUx3xiROelr6vUCJt6wDgo/edit?ts=6a8d89fb",icon:"clipboard"},
 
   {title:"Morning Meeting",description:"Department Teams meeting",category:"Quick Access",url:"https://teams.microsoft.com/l/meetup-join/19:meeting_NDdlMzNjZjQtOGFjZC00ZGFjLTk4NzctNDRhODE4ZjhlNzRh%40thread.v2/0?context=%7b%22Tid%22:%22eb5ef174-ffa9-46f5-873f-51288e5031dc%22%2c%22Oid%22:%224d26948c-b4f3-4685-bb3a-8b39b5c92b20%22%7d",icon:"users"},
   {title:"Department Calendar",description:"WTFD calendar",category:"Quick Access",url:"https://calendar.google.com/calendar/u/0/newembed?src=wtfd57007@gmail.com&ctz=America/New_York&mode=WEEK",icon:"calendar"},
