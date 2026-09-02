@@ -29,7 +29,7 @@ const links = [
   {title:"CrewSense",description:"Staffing and scheduling",category:"Systems",url:"https://www.crewsense.com/Application/",icon:"users",primary:true},
   {title:"OperativeIQ",description:"Inventory, assets and service requests",category:"Systems",url:"https://login.operativeiq.com/Login.aspx?identifier=wtfd&ReturnUrl=&LoginType=&check=IE",icon:"clipboard",primary:true},
   {title:"ESO",description:"Fire and EMS records management",category:"Systems",url:"https://www.esosuite.net/login/wtfdoh?returnUrl=%2FEsoSuite%2FHome%2FIndex",icon:"medical",primary:true},
-  {title:"Live Fleet Dashboard",description:"Real-time apparatus locations",category:"Systems",url:"https://wtfd-fleet-dashboard.pages.dev/",icon:"map",primary:true},
+  {title:"Live Fleet Dashboard",description:"Real-time apparatus locations",category:"Systems",url:"https://wtfd-fleet-dashboard.pages.dev/?mode=kiosk",icon:"map",primary:true},
   {title:"ImageTrend",description:"ePCR and EMS reporting",category:"Systems",url:"https://washingtontownship.imagetrendelite.com/Elite/Organizationwashingtontownship/?logout=1",icon:"flame",primary:true},
   {title:"SharePoint",description:"Department SharePoint site",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/sites/fire",icon:"share",primary:true},
   {title:"Vector Training",description:"Vector / TargetSolutions",category:"Systems",url:"https://app.targetsolutions.com/auth/index.cfm?action=login.showlogin&customerid=37255&customerpath=washingtontwpoh",icon:"graduation",primary:true},
