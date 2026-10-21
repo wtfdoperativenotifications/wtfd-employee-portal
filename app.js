@@ -32,6 +32,7 @@ const links = [
   {title:"Live Fleet Dashboard",description:"Real-time apparatus locations",category:"Systems",url:"https://wtfd-fleet-dashboard.pages.dev/?mode=kiosk",icon:"map",primary:true},
   {title:"ImageTrend",description:"ePCR and EMS reporting",category:"Systems",url:"https://washingtontownship.imagetrendelite.com/Elite/Organizationwashingtontownship/?logout=1",icon:"flame",primary:true},
   {title:"SharePoint",description:"Department SharePoint site",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/sites/fire",icon:"share",primary:true},
+  {title:"Daily Log",description:"Department daily pass-on log",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/:o:/s/DailyPassOn/IgAtMycTclfxTbZqXJgRCbb6AX3w8UKrt_b89JY_ZZ389TM?e=cVfeVP",icon:"book",primary:true},
   {title:"Vector Training",description:"Vector / TargetSolutions",category:"Systems",url:"https://app.targetsolutions.com/auth/index.cfm?action=login.showlogin&customerid=37255&customerpath=washingtontwpoh",icon:"graduation",primary:true},
   {title:"FlowMSP",description:"Preplans and response information",category:"Systems",url:"https://app.flowmsp.com",icon:"cloud",primary:true},
 
