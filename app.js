@@ -40,7 +40,7 @@ const links = [
   {title:"Payroll Exception Report",description:"Review payroll actions and ride-up assignments",category:"Employee Services",url:"https://wtfd-fleet-tv.hartleywtfd.workers.dev/member-review.html",icon:"clipboard"},
   {title:"Employee Info Update",description:"Update employee information",category:"Employee Services",url:"https://arcg.is/1viuH03",icon:"id"},
   {title:"Exposure Form",description:"Submit an exposure report",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSfgL3HHEJojxQsqhsIiIjLuf8qpSVfzIBWC-xylqhINWjQXYQ/viewform",icon:"plus"},
-  {title:"Award Nominations",description:"Submit an award nomination",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSe403NA8g2yRjIY8jaZ0QlJUOS58rVhvABPSDxxf6Ix-pGesw/viewform",icon:"trophy"},
+  {title:"Award Nominations",description:"Submit an award nomination",category:"Employee Services",url:"https://awards.washingtontwpfire.org/",icon:"trophy"},
 
   {title:"Training / Tuition Reimbursement",description:"Training and tuition form",category:"Training & Operations",url:"https://washingtontwpohio.sharepoint.com/sites/Fire/Fire%20Forms/Forms/AllItems.aspx?id=%2Fsites%2FFire%2FFire%20Forms%2FTRAINING%20REQUEST%2DTUITION%20REIMBURSEMENT%2Epdf&parent=%2Fsites%2FFire%2FFire%20Forms",icon:"book"},
   {title:"EMS Training Survey",description:"EMS training survey",category:"Training & Operations",url:"https://docs.google.com/forms/d/1iizuNiHleeAWpN3cwUvKJJUx3xiROelr6vUCJt6wDgo/edit?ts=6a8d89fb",icon:"clipboard"},
