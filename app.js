@@ -39,7 +39,7 @@ const links = [
   {title:"Time Adjustment",description:"Submit a time adjustment",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSeiEExxWT88-EGZL6zvqp1z72a5sswMqvVydu997n24ps-M0A/viewform",icon:"clock"},
   {title:"Payroll Exception Report",description:"Review payroll actions and ride-up assignments",category:"Employee Services",url:"https://wtfd-fleet-tv.hartleywtfd.workers.dev/member-review.html",icon:"clipboard"},
   {title:"Employee Info Update",description:"Update employee information",category:"Employee Services",url:"https://arcg.is/1viuH03",icon:"id"},
-  {title:"Exposure Form",description:"Submit an exposure report",category:"Employee Services",url:"https://docs.google.com/forms/d/e/1FAIpQLSfgL3HHEJojxQsqhsIiIjLuf8qpSVfzIBWC-xylqhINWjQXYQ/viewform",icon:"plus"},
+  {title:"Exposure Form",description:"Submit an exposure report",category:"Employee Services",url:"https://www.exposure.washingtontwpfire.org",icon:"plus"},
   {title:"Award Nominations",description:"Submit an award nomination",category:"Employee Services",url:"https://awards.washingtontwpfire.org/",icon:"trophy"},
 
   {title:"Training / Tuition Reimbursement",description:"Training and tuition form",category:"Training & Operations",url:"https://washingtontwpohio.sharepoint.com/sites/Fire/Fire%20Forms/Forms/AllItems.aspx?id=%2Fsites%2FFire%2FFire%20Forms%2FTRAINING%20REQUEST%2DTUITION%20REIMBURSEMENT%2Epdf&parent=%2Fsites%2FFire%2FFire%20Forms",icon:"book"},
