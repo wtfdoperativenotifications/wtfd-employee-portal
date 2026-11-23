@@ -23,7 +23,7 @@ async function sign(value, secret) {
   return hex(new Uint8Array(await crypto.subtle.sign('HMAC', key, encoder.encode('wtfd-admin-v1:' + value))));
 }
 export function configured(env) {
-  return typeof env.ADMIN_ACCESS_TOKEN === 'string' && env.ADMIN_ACCESS_TOKEN.length >= 12;
+  return typeof env.ADMIN_ACCESS_TOKEN === 'string' && env.ADMIN_ACCESS_TOKEN.length >= 8;
 }
 export async function validToken(input, env) {
   if (!configured(env) || typeof input !== 'string' || input.length > 256) return false;
