@@ -6,7 +6,7 @@ The public Employee Portal remains available without sign-in. The Administration
 
 In Cloudflare dashboard → Workers & Pages → **the Pages project serving links.washingtontwpfire.org** → Settings → Variables and Secrets:
 
-1. Add encrypted secret **ADMIN_ACCESS_TOKEN** with your chosen shared token (minimum 12 characters). Use the separately provided token; do not reuse the Purchase Orders key.
+1. Add encrypted secret **ADMIN_ACCESS_TOKEN** with your chosen shared token (minimum 8 characters). Use the separately provided token; do not reuse the Purchase Orders key.
 2. Add encrypted secret **PO_DASHBOARD_KEY** with the purchase-order dashboard key supplied by the administrator. Store only its value, without the ?key= portion.
 3. Apply these to **Production** (and Preview if testing there), then redeploy the latest GitHub-connected Pages build so the Functions receive the variables.
 
