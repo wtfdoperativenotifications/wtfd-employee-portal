@@ -7,3 +7,13 @@ header{background:linear-gradient(100deg,#060606,#191a1d);color:#fff;border-bott
 .note{margin:16px 0 32px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:9px;padding:13px 14px;color:#535b66;font-size:11px}
 footer{background:#0b0b0c;color:#aeb4bc}.footer{height:64px;display:flex;align-items:center;justify-content:space-between;font-size:9px}
 @media(max-width:700px){.grid{grid-template-columns:1fr}.header-inner>a{display:none}.brand img{width:64px;height:64px}h1{font-size:27px}}
+
+/* Administration token sign-in and sign-out controls */
+.admin-actions{display:flex;align-items:center;gap:9px}
+.admin-actions>a,.admin-actions button{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:9px;padding:9px 12px;font:700 11px Inter,system-ui,sans-serif;background:transparent;cursor:pointer}
+.admin-actions form{margin:0}.admin-actions>a:hover,.admin-actions button:hover{border-color:var(--gold2)}
+.access-form{max-width:440px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:25px;box-shadow:0 4px 13px rgba(18,22,28,.06);display:flex;flex-direction:column;gap:12px;margin:8px 0 50px}
+.access-form label{font-size:13px;font-weight:700}.access-form input{font:inherit;border:1px solid #b4bbc3;border-radius:8px;padding:13px;font-size:16px;min-height:46px;width:100%}
+.access-form input:focus-visible{outline:3px solid var(--gold2);outline-offset:2px}.access-form button{font:700 13px Inter,system-ui,sans-serif;background:var(--red);border:0;border-radius:8px;padding:14px;color:white;cursor:pointer}
+.access-form button:hover{filter:brightness(.9)}.notice{color:#a41222;font-weight:600;font-size:12px;margin:0}
+@media(max-width:700px){.admin-actions{flex-direction:column;align-items:flex-end;gap:7px}.admin-actions>a{display:none}.admin-actions button{font-size:10px}}
