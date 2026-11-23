@@ -48,6 +48,7 @@ const links = [
 
   {title:"Morning Meeting",description:"Department Teams meeting",category:"Quick Access",url:"https://teams.microsoft.com/l/meetup-join/19:meeting_NDdlMzNjZjQtOGFjZC00ZGFjLTk4NzctNDRhODE4ZjhlNzRh%40thread.v2/0?context=%7b%22Tid%22:%22eb5ef174-ffa9-46f5-873f-51288e5031dc%22%2c%22Oid%22:%224d26948c-b4f3-4685-bb3a-8b39b5c92b20%22%7d",icon:"users"},
   {title:"Department Calendar",description:"WTFD calendar",category:"Quick Access",url:"https://calendar.google.com/calendar/u/0/newembed?src=wtfd57007@gmail.com&ctz=America/New_York&mode=WEEK",icon:"calendar"},
+  {title:"365-Day Department Calendar",description:"View the long-term department calendar",category:"Quick Access",url:"https://wtfd-standalone-calendar.hartleywtfd.workers.dev/calendar",icon:"calendar"},
   {title:"2026 Illness / Injury Packet",description:"Current illness and injury packet",category:"Quick Access",url:"https://drive.google.com/file/d/15T53yk_7PXFatRTtX81U1m64eGM2zBcc/view?usp=sharing",icon:"clipboard"},
   {title:"Transfer Portal",description:"Department transfer portal",category:"Quick Access",url:"https://docs.google.com/forms/d/e/1FAIpQLSd__rhf05vL8VSAqqDy503_birkvfRJVIOXcVWc52vz2nKReg/viewform?usp=dialog",icon:"repeat"},
   {title:"Washington Township Fire / EMS",description:"Public department webpage",category:"Quick Access",url:"https://www.washingtontwp.org/services/fire_ems",icon:"globe"},
