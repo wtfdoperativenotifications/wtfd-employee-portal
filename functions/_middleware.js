@@ -23,7 +23,7 @@ function loginPage(message = '', status = 200) {
     '</div></div><a href="/">← Employee Portal</a></div></header>' +
     '<main class="shell"><section class="intro"><div class="eyebrow">Restricted area</div>' +
     '<h2>Enter Administration Access Token</h2><p>Access is limited to authorized personnel.</p></section>' +
-    '<form method="POST" action="/admin.html" class="access-form">' +
+    '<form method="POST" action="/admin" class="access-form">' +
     '<label for="access-token">Access token</label>' +
     '<input id="access-token" name="access_token" type="password" autocomplete="off" required maxlength="256">' +
     warning +
@@ -38,10 +38,9 @@ function loginPage(message = '', status = 200) {
 export async function onRequest(context) {
   const request = context.request;
   const url = new URL(request.url);
-  if (url.pathname === '/admin' || url.pathname === '/admin/') {
-    return Response.redirect(url.origin + '/admin.html', 302);
-  }
-  const isAdminPage = url.pathname === '/admin.html';
+  // Cloudflare Pages serves admin.html at its canonical extensionless /admin URL.
+  // Never redirect /admin back to /admin.html; Pages may normalize in the other direction.
+  const isAdminPage = url.pathname === '/admin' || url.pathname === '/admin/' || url.pathname === '/admin.html';
   const isAdminAction = url.pathname === '/admin/po' || url.pathname === '/admin/po/';
   if (!isAdminPage && !isAdminAction) return context.next();
 
@@ -63,7 +62,7 @@ export async function onRequest(context) {
     }
     if (await validToken(data.get('access_token'), context.env)) {
       return new Response(null, { status:303, headers: headers({
-        'Location':'/admin.html','Set-Cookie':await makeCookie(context.env)
+        'Location':'/admin','Set-Cookie':await makeCookie(context.env)
       })});
     }
     return loginPage('The token entered is incorrect.', 401);
@@ -72,7 +71,7 @@ export async function onRequest(context) {
     return new Response('Method not allowed', {status:405, headers:headers({'Allow':'GET, HEAD, POST'})});
   }
   if (!await isAuthorized(request, context.env)) {
-    if (isAdminAction) return Response.redirect(url.origin + '/admin.html', 303);
+    if (isAdminAction) return Response.redirect(url.origin + '/admin', 303);
     return loginPage();
   }
   // Do not let Cloudflare cache the HTML supplied to authenticated visitors.
