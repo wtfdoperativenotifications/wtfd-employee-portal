@@ -31,7 +31,7 @@ const links = [
   {title:"Stock Inventory",description:"Live central supply and station inventory",category:"Systems",url:"https://stock.washingtontwpfire.org/",icon:"clipboard",primary:true},
   {title:"Drug Bag Exchange History",description:"Search completed drug bag exchanges",category:"Systems",url:"https://wtfd-operative-preview.hartleywtfd.workers.dev/drug-bags",icon:"medical",primary:true},
   {title:"ESO",description:"Fire and EMS records management",category:"Systems",url:"https://www.esosuite.net/login/wtfdoh?returnUrl=%2FEsoSuite%2FHome%2FIndex",icon:"medical",primary:true},
-  {title:"Live Fleet Dashboard",description:"Real-time apparatus locations",category:"Systems",url:"https://wtfd-fleet-dashboard.pages.dev/?mode=kiosk",icon:"map",primary:true},
+  {title:"Live Vehicle Locations",description:"Live apparatus positions with smooth GPS movement",category:"Systems",url:"https://wtfd-fleet-dashboard.hartleywtfd.workers.dev/?liveGps=1",icon:"map",primary:true},
   {title:"ImageTrend",description:"ePCR and EMS reporting",category:"Systems",url:"https://washingtontownship.imagetrendelite.com/Elite/Organizationwashingtontownship/?logout=1",icon:"flame",primary:true},
   {title:"SharePoint",description:"Department SharePoint site",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/sites/fire",icon:"share",primary:true},
   {title:"Daily Log",description:"Department daily pass-on log",category:"Systems",url:"https://washingtontwpohio.sharepoint.com/:o:/s/DailyPassOn/IgAtMycTclfxTbZqXJgRCbb6AX3w8UKrt_b89JY_ZZ389TM?e=cVfeVP",icon:"book",primary:true},
