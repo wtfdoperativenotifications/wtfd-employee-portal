@@ -28,6 +28,7 @@ const ICONS = {
 const links = [
   {title:"CrewSense",description:"Staffing and scheduling",category:"Systems",url:"https://www.crewsense.com/Application/",icon:"users",primary:true},
   {title:"OperativeIQ",description:"Inventory, assets and service requests",category:"Systems",url:"https://login.operativeiq.com/Login.aspx?identifier=wtfd&ReturnUrl=&LoginType=&check=IE",icon:"clipboard",primary:true},
+  {title:"Logistics Command Center",description:"Supply requisitions, inventory analytics and authorized financial analytics",category:"Systems",url:"https://supply.washingtontwpfire.org/",icon:"clipboard",primary:true},
   {title:"Stock Inventory",description:"Live central supply and station inventory",category:"Systems",url:"https://stock.washingtontwpfire.org/",icon:"clipboard",primary:true},
   {title:"Drug Bag Exchange History",description:"Search completed drug bag exchanges",category:"Systems",url:"https://wtfd-operative-preview.hartleywtfd.workers.dev/drug-bags",icon:"medical",primary:true},
   {title:"ESO",description:"Fire and EMS records management",category:"Systems",url:"https://www.esosuite.net/login/wtfdoh?returnUrl=%2FEsoSuite%2FHome%2FIndex",icon:"medical",primary:true},
